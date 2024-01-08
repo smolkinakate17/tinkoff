@@ -1,6 +1,6 @@
 # tinkoff
 Главное окно<br />
-![Alt text](image.png)
+![Alt text](2Pcgh_WNiwU.jpg)
 <br />
 Окно добавления/редактирования<br />
 ![Alt text](Ostj622nGg0.jpg)
