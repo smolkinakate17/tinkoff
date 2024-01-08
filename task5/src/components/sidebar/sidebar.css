@@ -1,0 +1,19 @@
+.sidebar {
+    @apply bg-[#f3f7fa] w-[500px] flex flex-col h-screen sticky top-0 pt-16 shadow-lg flex-shrink-0
+}
+
+.sidebar-search {
+    @apply flex gap-4 justify-between items-stretch h-10
+}
+
+.sidebar-main {
+    @apply flex-grow min-h-0
+}
+
+.sidebar-list {
+    @apply flex flex-col h-full gap-2 overflow-x-auto px-4
+}
+
+.sidebar-footer {
+    @apply border-t flex justify-between items-center px-4 py-4
+}

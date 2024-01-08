@@ -1,0 +1,26 @@
+.header {
+    @apply fixed top-0 w-full h-16 bg-[#FAFAFA] z-10 flex items-center justify-between p-4 shadow-sm
+}
+
+.header__logo {
+    @apply w-14 h-14 flex items-center
+}
+
+.header__logo-title {
+    @apply text-4xl font-bold text-[#301014]
+}
+
+.header__author {
+    @apply rounded-md bg-[#FFDD2D] hover:bg-yellow-700 transition-colors duration-200
+}
+.header__author-text{
+    @apply hover:text-[#567fcc]; 
+    margin-left: 1em;
+    margin-right: 1em
+}
+
+.header__git {
+    @apply text-sm hover:text-[#567fcc]; 
+    margin-left: 1em;
+    margin-right: 1em
+}
