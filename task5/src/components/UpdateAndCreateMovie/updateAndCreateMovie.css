@@ -1,0 +1,31 @@
+.edit-container {
+    @apply flex grow
+}
+
+.edit-container__poster {
+    @apply flex-shrink-0
+}
+
+.edit-container__poster-img {
+    @apply w-96 h-[36rem] object-cover rounded-lg bg-slate-400 shadow-2xl mb-4
+}
+
+.edit-container__info {
+    @apply ml-10 grow
+}
+
+.form {
+    @apply flex flex-col gap-4
+}
+
+.edit-entry {
+    @apply flex
+}
+
+.edit-entry .edit-entry__title {
+    @apply text-slate-500 text-xl w-60
+}
+
+.form__buttons {
+    @apply flex gap-4 justify-end h-10
+}

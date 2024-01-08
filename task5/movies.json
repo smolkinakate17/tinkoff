@@ -1,0 +1,436 @@
+{
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Crime",
+    "Drama",
+    "Music",
+    "Adventure",
+    "History",
+    "Thriller",
+    "Animation",
+    "Family",
+    "Mystery",
+    "Biography",
+    "Action",
+    "Film-Noir",
+    "Romance",
+    "Sci-Fi",
+    "War",
+    "Western",
+    "Horror",
+    "Musical",
+    "Sport"
+  ],
+  "favorites": [],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Ratatouille",
+      "year": "2007",
+      "runtime": "111",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "director": "Brad Bird, Jan Pinkava",
+      "actors": "Patton Oswalt, Ian Holm, Lou Romano, Brian Dennehy",
+      "plot": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Taxi Driver",
+      "year": "1976",
+      "runtime": "113",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "director": "Martin Scorsese",
+      "actors": "Diahnne Abbott, Frank Adu, Victor Argo, Gino Ardito",
+      "plot": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+      "posterUrl": "https://i.pinimg.com/736x/84/57/a0/8457a093261d6aa852988c15deed0206.jpg"
+    },
+    {
+      "id": 3,
+      "title": "No Country for Old Men",
+      "year": "2007",
+      "runtime": "122",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "director": "Ethan Coen, Joel Coen",
+      "actors": "Tommy Lee Jones, Javier Bardem, Josh Brolin, Woody Harrelson",
+      "plot": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Scarface",
+      "year": "1983",
+      "runtime": "170",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "director": "Brian De Palma",
+      "actors": "Al Pacino, Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio",
+      "plot": "In Miami in 1980, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAzOTM4MzEwNl5BMl5BanBnXkFtZTgwMzU1OTc1MDE@._V1_SX300.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Black Swan",
+      "year": "2010",
+      "runtime": "108",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "director": "Darren Aronofsky",
+      "actors": "Natalie Portman, Mila Kunis, Vincent Cassel, Barbara Hershey",
+      "plot": "A committed dancer wins the lead role in a production of Tchaikovsky's \"Swan Lake\" only to find herself struggling to maintain her sanity.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX300.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Django Unchained",
+      "year": "2012",
+      "runtime": "165",
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "director": "Quentin Tarantino",
+      "actors": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington",
+      "plot": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+      "posterUrl": "https://media.senscritique.com/media/000013924487/source_big/django_unchained.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Silence of the Lambs",
+      "year": "1991",
+      "runtime": "118",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "director": "Jonathan Demme",
+      "actors": "Jodie Foster, Lawrence A. Bonney, Kasi Lemmons, Lawrence T. Wrentz",
+      "plot": "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2NzkzMDI4OF5BMl5BanBnXkFtZTcwMDA0NzE1NA@@._V1_SX300.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Pulp Fiction",
+      "year": "1994",
+      "runtime": "154",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "director": "Quentin Tarantino",
+      "actors": "Tim Roth, Amanda Plummer, Laura Lovelace, John Travolta",
+      "plot": "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_SX300.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Lucky Number Slevin",
+      "year": "2006",
+      "runtime": "110",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "director": "Paul McGuigan",
+      "actors": "Josh Hartnett, Bruce Willis, Lucy Liu, Morgan Freeman",
+      "plot": "A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzc1OTEwMTk4OF5BMl5BanBnXkFtZTcwMTEzMDQzMQ@@._V1_SX300.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Shutter Island",
+      "year": "2010",
+      "runtime": "138",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "director": "Martin Scorsese",
+      "actors": "Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley, Max von Sydow",
+      "plot": "In 1954, a U.S. marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxMTIyNzMxMV5BMl5BanBnXkFtZTcwOTc4OTI3Mg@@._V1_SX300.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Reservoir Dogs",
+      "year": "1992",
+      "runtime": "99",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "director": "Quentin Tarantino",
+      "actors": "Harvey Keitel, Tim Roth, Michael Madsen, Chris Penn",
+      "plot": "After a simple jewelry heist goes terribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjE5ZDJiZTQtOGE2YS00ZTc5LTk0OGUtOTg2NjdjZmVlYzE2XkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_SX300.jpg"
+    },
+    {
+      "id": 13,
+      "title": "The Shining",
+      "year": "1980",
+      "runtime": "146",
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "director": "Stanley Kubrick",
+      "actors": "Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers",
+      "plot": "A family heads to an isolated hotel for the winter where an evil and spiritual presence influences the father into violence, while his psychic son sees horrific forebodings from the past and of the future.",
+      "posterUrl": "http://ia.media-imdb.com/images/M/MV5BODMxMjE3NTA4Ml5BMl5BanBnXkFtZTgwNDc0NTIxMDE@._V1_SX300.jpg"
+    },
+    {
+      "id": 15,
+      "title": "The Truman Show",
+      "year": "1998",
+      "runtime": "103",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Sci-Fi"
+      ],
+      "director": "Peter Weir",
+      "actors": "Jim Carrey, Laura Linney, Noah Emmerich, Natascha McElhone",
+      "plot": "An insurance salesman/adjuster discovers his entire life is actually a television show.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Forrest Gump",
+      "year": "1994",
+      "runtime": "142",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "director": "Robert Zemeckis",
+      "actors": "Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys",
+      "plot": "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg"
+    },
+    {
+      "id": 17,
+      "title": "The Hobbit: The Desolation of Smaug",
+      "year": "2013",
+      "runtime": "161",
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "director": "Peter Jackson",
+      "actors": "Ian McKellen, Martin Freeman, Richard Armitage, Ken Stott",
+      "plot": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1_SX300.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Psycho",
+      "year": "1960",
+      "runtime": "109",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "director": "Alfred Hitchcock",
+      "actors": "Anthony Perkins, Vera Miles, John Gavin, Janet Leigh",
+      "plot": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDI3OWRmOTEtOWJhYi00N2JkLTgwNGItMjdkN2U0NjFiZTYwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Madagascar",
+      "year": "2005",
+      "runtime": "86",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "director": "Eric Darnell, Tom McGrath",
+      "actors": "Ben Stiller, Chris Rock, David Schwimmer, Jada Pinkett Smith",
+      "plot": "Spoiled by their upbringing with no idea what wild life is really like, four animals from New York Central Zoo escape, unwittingly assisted by four absconding penguins, and find themselves in Madagascar, among a bunch of merry lemurs",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4NDUwMzQxMF5BMl5BanBnXkFtZTcwMDgwNjgyMQ@@._V1_SX300.jpg"
+    },
+    {
+      "id": 20,
+      "title": "The Social Network",
+      "year": "2010",
+      "runtime": "120",
+      "genres": [
+        "Biography",
+        "Drama"
+      ],
+      "director": "David Fincher",
+      "actors": "Jesse Eisenberg, Rooney Mara, Bryan Barter, Dustin Fitzsimons",
+      "plot": "Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2ODk0NDAwMF5BMl5BanBnXkFtZTcwNTM1MDc2Mw@@._V1_SX300.jpg"
+    },
+    {
+      "id": 21,
+      "title": "The Pianist",
+      "year": "2002",
+      "runtime": "150",
+      "genres": [
+        "Biography",
+        "Drama",
+        "War"
+      ],
+      "director": "Roman Polanski",
+      "actors": "Adrien Brody, Emilia Fox, Michal Zebrowski, Ed Stoppard",
+      "plot": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
+      "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTc4OTkyOTA3OF5BMl5BanBnXkFtZTYwMDIxNjk5._V1_SX300.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Catch Me If You Can",
+      "year": "2002",
+      "runtime": "141",
+      "genres": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "director": "Steven Spielberg",
+      "actors": "Leonardo DiCaprio, Tom Hanks, Christopher Walken, Martin Sheen",
+      "plot": "The true story of Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars' worth of checks as a Pan Am pilot, doctor, and legal prosecutor.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_SX300.jpg"
+    },
+    {
+      "id": 23,
+      "title": "American History X",
+      "year": "1998",
+      "runtime": "119",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "director": "Tony Kaye",
+      "actors": "Edward Norton, Edward Furlong, Beverly D'Angelo, Jennifer Lien",
+      "plot": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZjA0MTM4MTQtNzY5MC00NzY3LWI1ZTgtYzcxMjkyMzU4MDZiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg"
+    },
+    {
+      "id": 24,
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": "2003",
+      "runtime": "201",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "director": "Peter Jackson",
+      "actors": "Noel Appleby, Ali Astin, Sean Astin, David Aston",
+      "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE4MjA1NTAyMV5BMl5BanBnXkFtZTcwNzM1NDQyMQ@@._V1_SX300.jpg"
+    },
+    {
+      "id": 25,
+      "title": "WALL·E",
+      "year": "2008",
+      "runtime": "98",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "director": "Andrew Stanton",
+      "actors": "Ben Burtt, Elissa Knight, Jeff Garlin, Fred Willard",
+      "plot": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTczOTA3MzY2N15BMl5BanBnXkFtZTcwOTYwNjE2MQ@@._V1_SX300.jpg"
+    },
+    {
+      "id": 26,
+      "title": "The Wolf of Wall Street",
+      "year": "2013",
+      "runtime": "180",
+      "genres": [
+        "Biography",
+        "Comedy",
+        "Crime"
+      ],
+      "director": "Martin Scorsese",
+      "actors": "Leonardo DiCaprio, Jonah Hill, Margot Robbie, Matthew McConaughey",
+      "plot": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg"
+    },
+    {
+      "id": 27,
+      "title": "The Grand Budapest Hotel",
+      "year": "2014",
+      "runtime": "99",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ],
+      "director": "Wes Anderson",
+      "actors": "Ralph Fiennes, F. Murray Abraham, Mathieu Amalric, Adrien Brody",
+      "plot": "The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Alice in Wonderland",
+      "year": "2010",
+      "runtime": "108",
+      "genres": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "director": "Tim Burton",
+      "actors": "Johnny Depp, Mia Wasikowska, Helena Bonham Carter, Anne Hathaway",
+      "plot": "Nineteen-year-old Alice returns to the magical world from her childhood adventure, where she reunites with her old friends and learns of her true destiny: to end the Red Queen's reign of terror.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMwNjAxMTc0Nl5BMl5BanBnXkFtZTcwODc3ODk5Mg@@._V1_SX300.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Spirited Away",
+      "year": "2001",
+      "runtime": "125",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "director": "Hayao Miyazaki",
+      "actors": "Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takashi Naitô",
+      "plot": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjYxMDcyMzIzNl5BMl5BanBnXkFtZTYwNDg2MDU3._V1_SX300.jpg"
+    },
+    {
+      "title": "12 Angry Men",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODQwOTc5MDM2N15BMl5BanBnXkFtZTcwODQxNTEzNA@@._V1_SX300.jpg",
+      "director": "Sidney Lumet",
+      "year": "1957",
+      "runtime": "96",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "actors": "Martin Balsam, John Fiedler, Lee J. Cobb, E.G. Marshall",
+      "plot": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+      "id": 30
+    }
+  ]
+}

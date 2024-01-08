@@ -1,0 +1,39 @@
+.menu-item {
+    @apply relative
+}
+
+.menu-item__body {
+    @apply flex rounded-2xl h-32 mt-10 transition-all
+}
+
+.menu-item__poster-container {
+    @apply w-32 relative flex-shrink-0
+}
+
+.menu-item__poster {
+    @apply left-4 right-4 bottom-4 -top-10 absolute flex rounded-lg bg-white shadow-xl
+}
+
+.menu-item__poster-img {
+    @apply object-cover rounded-lg bg-slate-400
+}
+
+.menu-item__poster-img-load {
+    @apply animate-pulse rounded-lg bg-[#e6eaee] w-full h-full
+}
+
+.menu-item__info {
+    @apply p-4 pl-0 min-w-0 grow
+}
+
+.menu-item__info-title {
+    @apply grow text-xl font-bold truncate
+}
+
+.menu-item__info-text {
+    @apply text-slate-500 truncate
+}
+
+.menu-item__star {
+    @apply w-7 h-7 left-28 -top-9 absolute
+}

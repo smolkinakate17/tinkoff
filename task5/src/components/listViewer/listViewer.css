@@ -1,0 +1,7 @@
+.listviewer {
+    @apply bg-[#e6eaee] p-2 relative flex gap-2 flex-wrap rounded-lg cursor-pointer shadow-sm h-28 overflow-auto focus:outline outline-2 outline-[#ffed94]
+}
+
+.tag {
+    @apply p-1 px-2 bg-[#FFDD2D] rounded-md flex w-fit gap-2 items-center h-8
+}
