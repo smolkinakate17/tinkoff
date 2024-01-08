@@ -1,38 +1,57 @@
-export function setDefaultCardsInStorage() {
-    localStorage.setItem('cards', JSON.stringify(defaultArray));
-    return defaultArray;
+export async function setDefaultCardsInStorage() {
+    const savedCards = []
+    try {
+        const allCards = await (await getCardsFromStorage()).json();
+        for await (const card of allCards) {
+            await delCardFromStorage(card.id)
+        }
+        for await (const card of defaultArray) {
+            savedCards.push(await (await saveCardInStorage(card)).json())
+        }
+    } catch (e) {
+        console.error(e);
+    } finally {
+        return savedCards;
+    }
 }
 
 export function saveCardInStorage(card) {
     if (!card) return;
-    const cards = JSON.parse(localStorage.getItem('cards') || '[]');
-    if (!card.id) {
-        card.id = cards.length + 1;
-        cards.push(card);
-    } else {
-        const index = cards.findIndex((x) => Number(x.id) === Number(card.id));
-        cards[index] = card;
-    }
-    console.log("cards", cards);
-    localStorage.setItem('cards', JSON.stringify(cards));
-    return card;
+    
+    return fetch('http://localhost:3000/items', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json;charset=utf-8'
+        },
+        body: JSON.stringify(card)
+    });
+}
+
+export function updateCardInStorage(card) {
+    if (!card || !card.id) return;
+    
+    return fetch(`http://localhost:3000/items/${card.id}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json;charset=utf-8'
+        },
+        body: JSON.stringify(card)
+    });
 }
 
 export function delCardFromStorage(id) {
-    const cards = JSON.parse(localStorage.getItem('cards') || '[]');
-    localStorage.setItem('cards', JSON.stringify(cards.filter(card => card.id !== id)));
+    return fetch(`http://localhost:3000/items/${id}`, {
+        method: 'DELETE',
+    });
 }
 
 export function getCardsFromStorage() {
-    const cards = localStorage.getItem('cards');
-    if (!cards) return setDefaultCardsInStorage();
-    return JSON.parse(localStorage.getItem('cards') || '[]');
+    return fetch('http://localhost:3000/items')
 }
 
-export function getCardFromStorage(id) {
-    return JSON.parse(localStorage.getItem('cards') || '[]').find(card => card.id === id);
+export function getUserInfo() {
+    return fetch('http://localhost:3000/creatorInfo')
 }
-
 
 const defaultArray = [
     {
@@ -67,5 +86,4 @@ const defaultArray = [
         provider: "Поставщик 4",
         code: 5690364
     }
-    
 ]

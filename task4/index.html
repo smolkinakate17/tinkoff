@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <link rel="stylesheet" href="style.css">
     <link
       rel="icon"
@@ -14,9 +13,18 @@
   <body>
     <header class="header">
       <div class="container mx-auto">
-        <div class="flex items-center justify-between">
-          <h1 class="header__title">Екатерина Смолькина <span name="group">6408</span></h1>
-          <a href="https://github.com/smolkinakate17/tinkoff">https://github.com/smolkinakate17/tinkoff</a>
+        <div name="header" id="header" class="header-content">
+          <div name="infoPL" class="flex gap-2">
+            <div class="h-10 w-52 is-loading"></div>
+            <div class="h-10 w-56 is-loading"></div>
+            <div class="h-10 w-28 is-loading"></div>
+          </div>
+          <div name="gitPL" class="h-10 w-80 is-loading"></div>
+          <div class="flex items-center justify-between">
+            <h1 class="header__title">Екатерина Смолькина <span name="group">6408</span></h1>
+            <a href="https://github.com/smolkinakate17/tinkoff">https://github.com/smolkinakate17/tinkoff</a>
+          </div>
+          
         </div>
       </div>
     </header>
@@ -38,8 +46,108 @@
             </button>
           </div>
         </div>
-      
+
         <div id="catalog" class="catalog">
+          <div class="card">
+            <div class="card__img is-loading">
+            </div>
+            <div class="card__info">
+              <div class="flex">
+                <h1 name="name" class="h-10 w-32 is-loading"></h1>
+              </div>
+              <p name="description" class="grow is-loading"></p>
+              <div class="flex">
+                <div class="card__minor-info">
+                  <p name="provider" class="is-loading h-8 w-40"></p>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="card__minor-info">
+                  <p name="code" class="is-loading h-8 w-32"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img is-loading">
+            </div>
+            <div class="card__info">
+              <div class="flex">
+                <h1 name="name" class="h-10 w-32 is-loading"></h1>
+              </div>
+              <p name="description" class="grow is-loading"></p>
+              <div class="flex">
+                <div class="card__minor-info">
+                  <p name="provider" class="is-loading h-8 w-40"></p>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="card__minor-info">
+                  <p name="code" class="is-loading h-8 w-32"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img is-loading">
+            </div>
+            <div class="card__info">
+              <div class="flex">
+                <h1 name="name" class="h-10 w-32 is-loading"></h1>
+              </div>
+              <p name="description" class="grow is-loading"></p>
+              <div class="flex">
+                <div class="card__minor-info">
+                  <p name="provider" class="is-loading h-8 w-40"></p>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="card__minor-info">
+                  <p name="code" class="is-loading h-8 w-32"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img is-loading">
+            </div>
+            <div class="card__info">
+              <div class="flex">
+                <h1 name="name" class="h-10 w-32 is-loading"></h1>
+              </div>
+              <p name="description" class="grow is-loading"></p>
+              <div class="flex">
+                <div class="card__minor-info">
+                  <p name="provider" class="is-loading h-8 w-40"></p>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="card__minor-info">
+                  <p name="code" class="is-loading h-8 w-32"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img is-loading">
+            </div>
+            <div class="card__info">
+              <div class="flex">
+                <h1 name="name" class="h-10 w-32 is-loading"></h1>
+              </div>
+              <p name="description" class="grow is-loading"></p>
+              <div class="flex">
+                <div class="card__minor-info">
+                  <p name="provider" class="is-loading h-8 w-40"></p>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="card__minor-info">
+                  <p name="code" class="is-loading h-8 w-32"></p>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <template id="card-template">
             <div class="card">
@@ -53,7 +161,7 @@
                     <img class="h-5 aspect-square" src="img/trash.svg" alt="">
                   </button>
                 </div>
-        
+
                 <p name="description" class="grow overflow-hidden">Описание Описание Описание Описание Описание Описание Описание Описание </p>
                 <div class="flex">
                   <div class="card__minor-info">
@@ -71,7 +179,34 @@
                   </button>
                 </div>
               </div>
-            
+              <div name="deleting" class="sendBG">
+                <div class="flex gap-4 items-center">
+                  <p class="text-2xl text-yellow-600">Удаление</p>
+                  <div class="loader-yellow"></div>
+                </div>
+              </div>
+            </div>
+          </template>
+          <template id="card-preloader-template">
+            <div class="card">
+              <div class="card__img is-loading">
+              </div>
+              <div class="card__info">
+                <div class="flex">
+                  <h1 name="name" class="h-10 w-32 is-loading"></h1>
+                </div>
+                <p name="description" class="grow is-loading"></p>
+                <div class="flex">
+                  <div class="card__minor-info">
+                    <p name="provider" class="is-loading h-8 w-40"></p>
+                  </div>
+                </div>
+                <div class="flex">
+                  <div class="card__minor-info">
+                    <p name="code" class="is-loading h-8 w-32"></p>
+                  </div>
+                </div>
+              </div>
             </div>
           </template>
         </div>
@@ -92,8 +227,14 @@
           <input name="code" type="number" class="p-2" placeholder="Код товара" required>
           <button type="submit" class="button button-add">Сохранить</button>
         </form>
+        <div name="sending" class="sendBG">
+          <div class="flex gap-4 items-center">
+            <p class="text-2xl text-white">Отправка</p>
+            <div class="loader-white"></div>
+          </div>
+        </div>
       </div>
     </div>
-    <script type="module" src="src/main.js"></script>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
