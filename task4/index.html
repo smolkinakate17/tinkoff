@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://acdn.tinkoff.ru/params/common_front/resourses/icons/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сумочки</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between">
+          <h1 class="header__title">Екатерина Смолькина <span name="group">6408</span></h1>
+          <a href="https://github.com/smolkinakate17/tinkoff">https://github.com/smolkinakate17/tinkoff</a>
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between">
+          <h1 class="text-5xl py-6">Сумочки</h1>
+          <div class="flex gap-2 items-center">
+            <button id="add-btn" class="button button-add">
+              <p class="px-4 flex gap-2 font-bold items-center">
+                <span>Добавить</span>
+                <img class="h-5 aspect-square" src="img/add-card.svg" alt="add">
+              </p>
+            </button>
+            <button id="default-btn" class="button button-del">
+              <p class=" flex gap-2 font-bold items-center">
+                <img class="h-5 aspect-square" src="img/reload.svg" alt="reload">
+              </p>
+            </button>
+          </div>
+        </div>
+      
+        <div id="catalog" class="catalog">
+
+          <template id="card-template">
+            <div class="card">
+              <div class="card__img">
+                <img name="img" class="object-cover w-full h-full bg-zinc-600" src="https://last-trend.ru/uploads/posts/2017-12/1512993102_101.jpg" alt="">
+              </div>
+              <div class="card__info">
+                <div class="flex">
+                  <h1 name="name" class="card__title">Сумочки</h1>
+                  <button name="delBtn" class="button self-start button-del">
+                    <img class="h-5 aspect-square" src="img/trash.svg" alt="">
+                  </button>
+                </div>
+        
+                <p name="description" class="grow overflow-hidden">Описание Описание Описание Описание Описание Описание Описание Описание </p>
+                <div class="flex">
+                  <div class="card__minor-info">
+                    <img class="w-5 aspect-square" src="img/user.svg" alt="Поставщик">
+                    <p name="provider" class="text-rgba(45, 45, 45, 0.87)">Иван Иванов</p>
+                  </div>
+                </div>
+                <div class="flex">
+                  <div class="card__minor-info">
+                    <img class="w-5 aspect-square" src="img/tag.svg" alt="Код">
+                    <p name="code" class="text-rgba(45, 45, 45, 0.87)">1234567</p>
+                  </div>
+                  <button name="editBtn" class="button button-add">
+                    <img class="w-5 aspect-square" src="img/edit.svg">
+                  </button>
+                </div>
+              </div>
+            
+            </div>
+          </template>
+        </div>
+      </div>
+    </div>
+    <div id="modal" class="modal">
+      <div id="modal-window" class="modal__window">
+        <div class="modal__img">
+          <img class="object-cover w-full h-full bg-#dedede" src="http://last-trend.ru/uploads/posts/2017-12/1512993116_59.jpg" alt="Изображение карточки">
+        </div>
+        <form class="p-10 flex flex-col lg:w-[50%] md:w-fullmin-w-0 gap-3">
+          <h1 name="title" class="text-4xl font-bold">Карточка:</h1>
+          <input name="id" type="text" hidden>
+          <input name="img" class="p-2" type="text" placeholder="Ссылка на изображение" required>
+          <input name="name" class="p-2 w-full" type="text" placeholder="Название" required>
+          <textarea name="description" class="p-2" type="text" placeholder="Описание" required ></textarea>
+          <input name="provider" class="p-2" type="text" placeholder="Поставщик" required>
+          <input name="code" type="number" class="p-2" placeholder="Код товара" required>
+          <button type="submit" class="button button-add">Сохранить</button>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>

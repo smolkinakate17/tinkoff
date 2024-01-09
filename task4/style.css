@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @media screen and (max-width: 640px) {
+    @supports (zoom:normal) {
+      html {
+          min-width: 640px;
+      }
+    }
+  }
+
+  :root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(45, 45, 45, 0.87);
+    background-color: #dedede;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    margin: 0;
+  }
+}
+
+@layer components {
+  .header {
+    @apply bg-gray-400 w-full relative block
+  }
+
+  .header__title {
+    @apply text-3xl py-4 shadow-sm
+  }
+
+  .header__title [name=group] {
+    @apply text-yellow-400
+  }
+
+  .button {
+    @apply p-2 shrink-0
+  }
+  
+  .button-add {
+    @apply rounded-md bg-yellow-600 hover:bg-yellow-700 transition-colors duration-200
+  }
+  
+  .button-del {
+    @apply rounded-md hover:bg-white/75 transition-colors duration-200 text-yellow-600 font-bold
+  }
+
+  .catalog {
+    @apply grid gap-6 2xl:grid-cols-3 lg:grid-cols-2
+  }
+
+  .card {
+    @apply flex w-full gap-3 p-3 outline-2 relative outline-yellow-600 hover:outline cursor-pointer
+  }
+
+  .card__img {
+    @apply h-52 aspect-square p-2
+  }
+
+  .card__info {
+    @apply flex flex-col min-w-0 grow gap-3
+  }
+
+  .card__title {
+    @apply grow text-4xl font-bold font-inter truncate pb-2
+  }
+
+  .card__minor-info {
+    @apply flex items-center gap-4 grow
+  }
+
+  .modal {
+    @apply fixed inset-0 bg-white/50 hidden justify-center items-center
+  }
+
+  .modal__window {
+    @apply lg:w-[1000px] md:w-[500px] bg-[#dedede] flex lg:flex-row sm:flex-col
+  }
+
+  .modal__img {
+    @apply bg-slate-200 lg:w-[50%] md:w-full min-w-0 aspect-square
+  }
+}
+
